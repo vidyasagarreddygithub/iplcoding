@@ -1,0 +1,33 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ipllogocontainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+.ipllogo {
+  width: 30px;
+  height: 40px;
+  margin-right: 4px;
+}
+.mainhead {
+  color: white;
+  font-size: 30px;
+  font-family: 'Bree Serif';
+}
+.listofelements {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
